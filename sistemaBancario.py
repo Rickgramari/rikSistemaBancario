@@ -9,7 +9,7 @@ menu = """
 =>"""
 
 saldo = 0
-limite = 1500
+limite = 500
 extrato =""
 num_saques = 0
 LIMITES_SAQUES = 3
