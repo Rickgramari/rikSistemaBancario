@@ -55,6 +55,7 @@ while True:
     elif opcao == "e":
         print("\n*************EXTRATO************") # cabeçalho
         print("Não foram realizadas movimentações." if not extrato else extrato)# faço uma verificação se o extrato esta vazio caso não imprime a variavél Extrato
+        print("\n--------------------------------")
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("********************************") # rodapé
 
